@@ -1,0 +1,44 @@
+.npc{
+  background:linear-gradient(45deg,blue,rgb(4, 4, 184),yellow,gold) ;
+  width: 90vw; 
+  height: 100vh;
+  padding: 30px;
+  border-radius: 10px;
+  border-top: 5px solid gold;
+  border-bottom:5px solid darkblue ;
+  border-left: 5px solid gold;
+  border-right:5px solid darkblue ;
+  justify-self: center;
+}
+.content{
+  border-top: 5px solid gold;
+  border-bottom:5px solid gold ;
+  border-left: 5px solid darkblue;
+  border-right:5px solid darkblue ;
+    padding: 60px 80px 60px 80px;
+    width: 560px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 50px auto;
+    font-family: cursive;
+    font-size: 20px;
+    background-size: 260;
+    color: gold;
+    background-image: url("./Images/Jays\ motorcycle\ .jpg");
+}
+button{
+width: 220px;
+height:3rem;
+margin-bottom: 5px;
+border-radius: 5px;
+border:none;
+font-family: cursive;
+cursor: pointer;
+font-size: 20px;
+}
+.RED{
+background-color: red; color:whitesmoke;
+}
+.GREEN{
+background-color: green; color:whitesmoke;
+}
