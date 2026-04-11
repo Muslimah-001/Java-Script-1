@@ -24,7 +24,7 @@
     font-size: 20px;
     background-size: 260;
     color: gold;
-    background-image: url("../Assets/lighning.jpg");
+    background-image: url("./Assets/lighning.jpg");
 }
 button{
 width: 220px;
