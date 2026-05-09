@@ -1,0 +1,21 @@
+h2{
+    color: red;
+}
+button{
+    width: 280px;
+    height: 140px;
+    color: aliceblue;
+    background: red;
+    border: none;
+    font-family: serif;
+  font-style: italic;
+    font-size: 65px;
+    border-radius: 10px;
+}
+body{
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    background-color: tomato;
+    font-size: 65px;
+}

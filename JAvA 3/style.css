@@ -1,0 +1,60 @@
+body{
+  background-image: url("./images/fa.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 90vh;
+align-items: center;
+}
+.container{
+  background-image: url("./images/brown.jpg");
+  margin: 50px auto;
+  width: 600px;
+  height: 500px;
+  font-size: 35px;
+  text-align: center;
+}
+
+button{
+width: 20vw;
+height: 5vh;
+color: azure;
+font-size: 35px;
+font-family: serif;
+font-weight: bold;
+font-style: oblique;
+border-radius: 10px;
+border: none;
+padding-bottom: 15px;
+margin-bottom: 15px;
+cursor: pointer;
+}
+
+.red{
+  background:rgb(102, 218, 218);
+}
+
+.blue{
+  background:rgba(191, 58, 58, 0.587);
+}
+
+.green{
+  background: gold;
+}
+
+@media (max-width:768px) {
+  button{
+width: 30vw;
+height: 7vh;
+color: azure;
+font-size: 25px;
+font-family: cursive;
+font-weight: bolder;
+font-style: italic;
+border-radius: 10px;
+border: none;
+padding-bottom: 15px;
+margin-bottom: 15px;
+cursor: pointer;
+}
+}
