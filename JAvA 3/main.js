@@ -96,14 +96,16 @@ function decrement() {
 // create a function save(), wich logs out the
 //  count number
 //  when its cliked in console
-function save (){
-console.log(numberCount)
-}
+
+// function save (){
+// console.log(numberCount)
+// }
 
 let numberspace = 0;
 function increment (){
     numberspace = numberCount + 1
-    countEl.innerHTML = numberCount
+    // countEl.innerHTML = numberCount
+    countEl.textContent = numberCount
 }
 let saveEl = document.getElementById ("save-el")
 
@@ -112,6 +114,15 @@ let saveEl = document.getElementById ("save-el")
 function save () {
     // console.log(numberspace)
     let saveStr = numberCount+ " - "
-    
-    saveEl.innerText += saveStr
+      // saveEl.innerText += saveStr
+    saveEl.textContent += saveStr
+ countEl.textContent = 0
+ numberCount = 0
 }
+
+
+
+/* 
+Lesson 13: Debugging Online
+Google: innertext alternative mdn
+*/
