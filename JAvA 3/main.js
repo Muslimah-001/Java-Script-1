@@ -102,18 +102,18 @@ function decrement() {
 // }
 
 
-let saveEl = document.getElementById ("save-el")
 
 
 
 function save () {
-    // console.log(numberspace)
-    let saveStr = numberCount+ " - "
-      // saveEl.innerText += saveStr
-    saveEl.textContent += saveStr
- countEl.textContent = 0
- numberCount = 0
+  // console.log(numberspace)
+  let saveStr = numberCount+ " - "
+  // saveEl.innerText += saveStr
+  saveEl.textContent += saveStr
+  countEl.textContent = 0
+  numberCount = 0
 }
+let saveEl = document.getElementById ("save-el")
 
 
 
