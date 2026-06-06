@@ -101,12 +101,7 @@ function decrement() {
 // console.log(numberCount)
 // }
 
-let numberspace = 0;
-function increment (){
-    numberspace = numberCount + 1
-    // countEl.innerHTML = numberCount
-    countEl.textContent = numberCount
-}
+
 let saveEl = document.getElementById ("save-el")
 
 
