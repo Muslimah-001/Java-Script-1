@@ -1,0 +1,248 @@
+h2 button{
+    text-decoration: none;
+    background-color:  rgba(219, 4, 4, 0.61) ;
+    color: beige;
+    width: 285px;
+    height: 7vh;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header{
+    background-image: url("./Images/the\ leaf\ Village.jpg");
+   color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 25px;
+    font-family:cursive;
+}
+
+.cards{
+    display: flex;
+    margin-top: 15px;
+    gap: 100px;
+}
+.card img{
+    width:195px;
+    height:195px;
+    border-radius: 100%;
+  
+
+}
+
+
+section{
+    background-color: beige;
+    align-items: center;
+    padding:1px 0px 1px 190px;
+    text-align: center;
+font-family: cursive;
+color: rgba(219, 4, 4, 0.61);
+}
+#about h2 {
+    text-align: center;
+    padding-right: 150px;
+}
+
+body{
+margin: 0;
+padding: 0;
+list-style: none;
+box-sizing: border-box;
+
+}
+article{
+    background-color: burlywood;
+    font-family:cursive;
+    text-align: center;
+    color: beige;
+    padding: 3px 0px 10px 0px;
+    font-size: 16.5px;
+}
+.plate img{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+.plate{
+    background-color: rgba(219, 4, 4, 0.61);
+    width: 757px;
+    display: flex;
+    gap: 25px;
+    padding: 35px;
+    margin: 40px 0px;
+    justify-self: center;
+color: beige;
+border-radius: 15px;
+    border:0px 0px 0px 5px midnightblue ;
+}
+
+.convention h2{
+    padding-top: 570px;
+}
+.convention{
+    background-image: url("./Images/convention.jpg");
+    height: 140vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+footer{
+  background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 15px 25px;
+    color: red;
+    font-size: 23px;
+    font-family: cursive;
+}
+
+.soci-link{
+    flex-direction: column;
+    display: flex;
+}
+.soci-link a{
+    text-decoration: none;
+}
+
+.copy{
+   text-align: center;
+   background:red;
+   color: black;
+   font-size: medium;
+   font-family: cursive;
+   padding: 15px 10px;
+   border-radius: 0px 0px 10px 10px;
+}
+
+nav{
+    height: 7rem;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4rem;
+    font-family: cursive;
+    border-radius: 10px 10px 0px 0px;
+}
+.logo a{
+text-decoration: none;
+font-size: 2rem;
+color: red;
+}
+.menu{
+    display: flex;
+color: red;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.logo img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    font-size: 1.8rem;
+  background: black;
+}
+.menu a{
+     text-decoration: none;
+     color:red;
+     font-size:20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+/* Moblie Responsivness */
+@media (max-width:967px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:967px) {
+    .plate{
+        background-color:  rgba(219, 4, 4, 0.61);
+        width: 400px;
+        display: flex;
+        gap: 8px;
+        padding: 6.7px 10px;
+        margin: 40px 0px;
+    }
+
+    .plate img{
+        width: 250px;
+        height: 150px;
+        margin-top: 20px;
+        border-radius: 50%;
+    }
+    /* ========= Nav Menu ====== */
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background: red;
+        color: white;
+        margin-top: 2rem;
+        z-index: 10px;
+        height: 170px;
+        width: 30%;
+        padding: 17px 20px 17px 20px ;
+    }
+    .menu a{
+        color: black;
+    }
+    .logo a{
+        font-size: 1.8rem;
+    }
+    .logo img{
+       width: 100px;
+       height: 100px;
+    }
+    nav{
+        padding: 0px 10px;
+    }
+    .Company-Name{
+        color: red;
+font-size: 30px;
+margin-right: 140px;
+    }
+    .texting{
+        color: red;
+font-size: 20px;
+margin-top: 90px;
+    }
+
+}
+
+@media (max-width:967px) {
+    .convention{
+        font-size: 17.5px;
+        justify-self: center;
+        padding:5px 7px 15px 7px;
+        background-position: center;
+        width: 80rem;
+    }
+    #number{
+       font-size: 20.5px; 
+         padding: 25px;
+           display: flex;
+    flex-direction: column;
+    }
+}

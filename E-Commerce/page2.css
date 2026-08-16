@@ -1,0 +1,70 @@
+.clothing-shoes{
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+    text-align: center;
+    height: 180pc;
+}
+
+button{
+    padding: 15px;
+    height: 7vh;
+    width: 185px;
+    margin-left: 180%;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: bold;
+    background-color: brown;
+    color: bisque;
+    border: none;
+}
+
+.shirt img{
+   width:200px;
+   height:250px; 
+     border: 3px solid lightblue;
+}
+.hoodie img{
+    width:200px;
+    height:250px; 
+    border: 3px solid lightgreen;
+     
+}
+
+.pants img{
+    width:200px;
+    height:250px; 
+    border: 3px solid tomato;
+}
+
+.shoe img{
+    width:200px;
+   height:250px; 
+   border: 3px solid plum;
+}
+
+
+
+.item{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+gap: 15px;
+padding: 10px;
+}
+
+.item h1{
+      grid-column: 1 / -1;
+      font-size: 35px;
+      color: burlywood;
+}
+
+/* Mobile Responsivness */
+
+@media (max-width:967px) {
+  .clothing-shoes{
+    padding: 10px;
+  }  
+
+.item{
+    gap: 18px;
+}
+}

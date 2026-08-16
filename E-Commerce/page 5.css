@@ -1,0 +1,23 @@
+.container {
+   width: 50rem;
+   height: 40rem;
+   text-align: center;
+   align-items: center;
+   color: rgb(77, 119, 133);
+   background-size: cover;
+   background-image: url("./Images/shop\ cart.jpg");
+   font-family: sans-serif;
+   font-size: 25px;
+justify-self: center;
+}
+button{
+    height: 7vh;
+    border: none;
+    border-radius: 20px;
+    background-color: azure;
+    color: lightblue;
+    font-size: 15px;
+    font-weight: bold;
+    gap: 5px;
+    margin-bottom: 15px;
+}

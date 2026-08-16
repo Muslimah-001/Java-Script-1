@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator 2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <h1>My Calculator 2</h1>
+    <input id="display" readonly >
+    <div class="control">
+        <button id="signs" onclick="operate('+')">+</button>
+        <button id="nums" onclick="operate('7')">7</button>
+        <button id="nums" onclick="operate('8')">8</button>
+        <button id="nums" onclick="operate('9')">9</button>
+
+        <button id="signs" onclick="operate('-')">-</button>
+        <button id="nums" onclick="operate('4')">4</button>
+        <button id="nums" onclick="operate('5')">5</button>
+        <button id="nums" onclick="operate('6')">6</button>
+
+        <button id="signs" onclick="operate('*')">x</button>
+        <button id="nums" onclick="operate('3')">3</button>
+        <button id="nums" onclick="operate('2')">2</button>
+        <button id="nums" onclick="operate('1')">1</button>
+
+        <button id="signs" onclick="operate('/')" >/</button>
+        <button id="nums" onclick="operate('0')">0</button>
+        <button id="nums" onclick="operate('.')">.</button>
+        <button id="nums" onclick="calculate('=')">=</button>
+
+        <button id="sign" onclick="clearDisplay()">C</button>
+    </div>
+</div>
+
+ <script src="./main.js"></script>   
+</body>
+</html>

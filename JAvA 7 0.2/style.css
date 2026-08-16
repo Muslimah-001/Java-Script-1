@@ -1,0 +1,58 @@
+.container{
+    width: 650px;
+    margin: auto;
+        background: black;
+        color: aliceblue;
+    height: 725px;
+    border-bottom: 10px;
+    justify-self: center;
+   padding: 25px;
+    border-radius: 15px;
+   align-items: center;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+}
+input{
+    height: 80px;
+width: 100%;
+margin-bottom: 15px;
+font-size: 45px;
+background: gray;
+color: aliceblue;
+border: none;
+border-radius: 20px;
+font-family: sans-serif;
+text-align: center;
+}
+
+.control{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+gap: 15px;
+
+}
+
+
+#signs , #sign{
+    background: orange;
+    color: azure;
+}
+#nums{
+    background: lightslategray;
+    color: azure;
+}
+
+
+button{
+    border-radius: 50px;
+    width: 100px;
+    height: 90px;
+    border: none;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 45px;
+    font-family: cursive;
+}

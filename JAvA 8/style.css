@@ -1,0 +1,41 @@
+.container{
+    background-image: url("./image/casino.jpg");
+height: 550px;
+width: 570px;
+text-align: center;
+margin: 50px auto;
+}
+button{
+    width: 200px;
+    height: 4vh;
+    margin-top: 5px;
+    background: goldenrod;
+    color: darkgreen;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    transition: 0.5s
+}
+button:hover{
+        font-family: "Times New Roman", Times, serif;
+font-style: italic;
+font-size: 30px;
+font-weight: bold;
+font-variant: small-caps;
+        cursor:grab;
+         background: goldenrod;
+    color: darkgreen;
+    height: 4.5vh;
+}
+h1{
+    padding-top: 50px;
+    font-size: 45px;
+    font-family: serif;
+    color: goldenrod;
+}
+
+h3 , h2 {
+    font-size: 34.5px;
+    color: white;
+    font-style: oblique;
+}
